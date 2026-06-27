@@ -160,10 +160,6 @@ segment-tree-visualizer/
 Contributions are welcome!
 If you find a bug or have a feature idea, feel free to open an issue or submit a pull request.
 
-## 📬 Feedback & Bug Reports
-
-Use the **Report Bug** button inside the application to share feedback or issues.
-
 ## 🧑‍💻 Author
 
 **[Chandan Gupta](https://github.com/SarthakGupta345/)**

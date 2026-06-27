@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../components/styles/globals.css";
 import Navbar from "../components/Navbar";
 import ScrollToTopButton from "../components/functions/ScrollToTopButton/ScrollToTopButton";
-import ReportBugButton from "@/components/functions/ReportBugButton/ReportBugButton";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -130,7 +129,6 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <div className="floating-actions">
           <ScrollToTopButton />
-          <ReportBugButton />
         </div>
         <SpeedInsights />
         <Analytics />

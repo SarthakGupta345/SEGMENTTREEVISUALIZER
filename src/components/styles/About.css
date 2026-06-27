@@ -1,0 +1,294 @@
+.ab {
+  background: #f9fafb;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px 36px;
+}
+
+.section-title-1,
+.section-title-2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 0;
+  margin: 20px auto;
+}
+
+.section-title-1 {
+  margin-top: 0px;
+}
+
+/* ===== Project Aim Section ===== */
+.project-aim-tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.project-aim-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 18px;
+}
+
+.project-aim-heading span {
+  color: #2563eb;
+}
+
+.project-aim-list {
+  padding-left: 22px;
+  margin-bottom: 18px;
+}
+
+.project-aim-list li {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.project-aim-list strong {
+  color: #111827;
+}
+
+.project-aim-closing {
+  font-size: 17px;
+  color: #374151;
+  margin-bottom: 22px;
+}
+
+/* Highlight contribution */
+.project-aim-highlight {
+  background: #eef2ff;
+  border-left: 4px solid #2563eb;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.project-aim-highlight h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.project-aim-highlight p {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.project-aim-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.project-aim-link:hover {
+  color: #1d4ed8;
+  transform: translateX(4px);
+}
+
+/* ===== About Me Section ===== */
+.about-highlight {
+  background: #eef2ff;
+  border-left: 4px solid #2563eb;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.about-tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #2563eb;
+}
+
+.about-heading {
+  font-size: 54px;
+  font-weight: 700;
+  margin: 14px 0 6px;
+  color: #111827;
+}
+
+.about-heading span {
+  color: #2563eb;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.75;
+  color: #374151;
+  margin-bottom: 18px;
+}
+
+.about-description strong {
+  color: #111827;
+}
+
+.about-actions {
+  display: flex;
+  gap: 22px;
+  margin: 32px 0px 10px 0px;
+}
+
+.about-actions a {
+  font-size: 24px;
+  color: #374151;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.about-actions a:hover {
+  color: #2563eb;
+  transform: translateY(-3px);
+}
+
+.about-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 1150px) {
+  .project-aim {
+    padding: 22px;
+    text-align: center;
+  }
+
+  .project-aim-list {
+    text-align: left;
+  }
+
+  .about-actions {
+    justify-content: center;
+  }
+}
+
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 360px;
+  text-align: center;
+  animation: scaleIn 0.2s ease;
+}
+
+/* QR */
+.qr-img {
+  width: 250px;
+  max-width: 100%;
+  margin: 16px auto;
+
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+/* Buttons */
+.support-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.copy-btn {
+  margin-top: 4px 0px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: #f8f9ff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.copy-btn:hover {
+  background: #eef2ff;
+  border-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.copy-btn.copied {
+  background: #e6fffa;
+  border-color: #10b981;
+  color: #047857;
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Text */
+.upi-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

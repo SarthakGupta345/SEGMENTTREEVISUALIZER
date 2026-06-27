@@ -1,0 +1,38 @@
+/* ===== Scroll To Top Button ===== */
+.scroll-top-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 16px;
+  background: #1f2937;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 999px;
+
+  cursor: pointer;
+  font-family: inherit;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* ===== Arrow Icon ===== */
+.scroll-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* ===== Text ===== */
+.scroll-text {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Hover Effect ===== */
+.scroll-top-btn:hover {
+  background: #111827;
+  transform: translateY(-2px);
+}

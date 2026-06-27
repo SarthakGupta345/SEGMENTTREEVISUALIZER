@@ -1,0 +1,191 @@
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 16px;
+  width: 30%;
+  height: 600px;
+  overflow-y: auto;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Scrollbar */
+.input-section::-webkit-scrollbar {
+  width: 4px;
+}
+
+.input-section::-webkit-scrollbar-thumb {
+  background-color: #0e695a;
+}
+
+/* ===== Tree Type Options ===== */
+.tree-type-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tree-type-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c62828;
+}
+
+/* container */
+.tree-type-options {
+  display: flex;
+  gap: 8px;
+}
+
+/* buttons */
+.tree-type-options button {
+  flex: 1;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #374151;
+}
+
+/* hover */
+.tree-type-options button:hover {
+  background: #ececec;
+}
+
+/* active */
+.tree-type-options button.active {
+  background: #e6f4f1;
+  border-color: #0e695a;
+  color: #0e695a;
+}
+
+/* ===== Inputs ===== */
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0e695a;
+  box-shadow: 0 0 0 3px rgba(14, 105, 90, 0.15);
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #0e695a;
+  color: white;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+  background-color: #0b5044;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(14, 105, 90, 0.25), 0 2px 4px -1px rgba(14, 105, 90, 0.15);
+}
+
+button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* ===== Speed Control ===== */
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.speed-input {
+  flex: 1;
+}
+
+.speed-label,
+.speed-value {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ===== Query Section ===== */
+.query-section {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.query-toggle {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  background: #f3f4f6;
+  transition: background 0.2s ease;
+}
+
+.query-toggle:hover {
+  background: #e0e0e0;
+}
+
+.query-inputs {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: whitesmoke;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 1000px) {
+  .input-section {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -85,7 +85,7 @@ export default function About() {
 
           <div style={{ display: "flex", flexDirection: "column" }}>
             <a
-              href="https://github.com/Saini-Yogesh/segment-tree-visualization"
+              href="https://github.com/SarthakGupta345/SEGMENTTREEVISUALIZER"
               target="_blank"
               rel="noopener noreferrer"
               className="project-aim-link"
@@ -93,7 +93,7 @@ export default function About() {
               🔗 View Repository →
             </a>
             <a
-              href="https://github.com/Saini-Yogesh/segment-tree-visualization"
+              href="https://github.com/SarthakGupta345/SEGMENTTREEVISUALIZER"
               target="_blank"
               rel="noopener noreferrer"
               className="project-aim-link"
@@ -144,7 +144,7 @@ export default function About() {
           </p>
 
           <div className="about-actions">
-            <a href="mailto:yogesh.saini4002@gmail.com" aria-label="Email">
+            <a href="mailto:sarthak987gupta654@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
             {/* <a
@@ -156,21 +156,14 @@ export default function About() {
               <FaLinkedin />
             </a> */}
             <a
-              href="https://github.com/Saini-Yogesh"
+              href="https://github.com/SarthakGupta345/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
             >
               <FaGithub />
             </a>
-            <a
-              href="https://saini-yogesh.github.io/Portfolio/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Portfolio"
-            >
-              <FaGlobe />
-            </a>
+
           </div>
         </div>
 

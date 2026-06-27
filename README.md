@@ -166,8 +166,8 @@ Use the **Report Bug** button inside the application to share feedback or issues
 
 ## 🧑‍💻 Author
 
-**[Yogesh Saini](https://saini-yogesh.github.io/Portfolio/)**
+**[Chandan Gupta](https://github.com/SarthakGupta345/)**
 
-- Competitive Programmer (Codeforces- **[Specialist](https://codeforces.com/profile/yogesh_1___)**, LeetCode- **[Knight](https://leetcode.com/u/yogesh_1___/)**)
+- Competitive Programmer (Codeforces- **[Specialist](https://codeforces.com/profile/Sarthakgupta46)**, LeetCode- **[3 Star](https://leetcode.com/u/Sarthakgupta46/)**)
 - Full-Stack & Backend-focused Developer
 - Interested in scalable systems and AI-powered developer tools

@@ -168,6 +168,6 @@ Use the **Report Bug** button inside the application to share feedback or issues
 
 **[Chandan Gupta](https://github.com/SarthakGupta345/)**
 
-- Competitive Programmer (Codeforces- **[Specialist](https://codeforces.com/profile/Sarthakgupta46)**, LeetCode- **[3 Star](https://leetcode.com/u/Sarthakgupta46/)**)
+- Competitive Programmer (Codeforces- **[Specialist](https://codeforces.com/profile/Sarthakgupta46)**, LeetCode- **[](https://leetcode.com/u/Sarthakgupta46/)**)
 - Full-Stack & Backend-focused Developer
 - Interested in scalable systems and AI-powered developer tools
